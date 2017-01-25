@@ -1,3 +1,10 @@
-def add(num_1,num_2)
-	num_1 + num_2 
+
+#def add(*au)
+	#au.inject {|sum, value| sum += value }
+#end
+
+def add(*au)
+	au.inject do |sum, value|
+		sum += value
+	end
 end

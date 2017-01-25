@@ -19,6 +19,14 @@ class TestAddition <Minitest::Test
 	def test_99_plus99_returns_198
 		assert_equal(198, add(99,99))
 	end
+	def test_0_5_0_7_returns_1_2
+		assert_equal(1.2, add(0.5,0.7))
+	end
+	def test_0_plus2_returns_2
+		assert_equal(2, add(0,2))
+		end
+	def test_hello_lisa_returns_hellolisa
+		assert_equal("Hello Lisa", add("Hello ", "Lisa"))
 	end
 
 	

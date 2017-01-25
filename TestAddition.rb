@@ -7,4 +7,18 @@ class TestAddition <Minitest::Test
 		assert_equal(2,add(1,1))
 	end
 
-end	
+	def test_2_plus_3_returns_5
+		assert_equal(5, add(2,3))
+	end
+	def test_5_plus_4_returns_9
+		assert_equal(9, add(5,4))		
+	end
+	def test_neg4_plus10_returns_6
+		assert_equal(6, add(-4,10))
+	end
+	def test_99_plus99_returns_198
+		assert_equal(198, add(99,99))
+	end
+	end
+
+	
